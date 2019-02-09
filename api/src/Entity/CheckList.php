@@ -10,8 +10,8 @@ use Symfony\Component\Validator\Constraints as Assert;
 use Symfony\Component\Serializer\Annotation\Groups;
 use App\Controller\CreateList;
 
-
 /**
+ *
  * Secured resource
  * @ORM\Entity(repositoryClass="App\Repository\CheckListRepository")
  * @ApiResource(routePrefix="/api",denormalizationContext={"groups"={"write"}},

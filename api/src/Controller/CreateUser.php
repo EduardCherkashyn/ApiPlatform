@@ -10,9 +10,8 @@ namespace App\Controller;
 
 use App\Entity\User;
 use App\Services\PasswordEncoder;
-use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 
-class CreateUser extends AbstractController
+class CreateUser
 {
     public function __invoke(User $data, PasswordEncoder $encoder)
     {
